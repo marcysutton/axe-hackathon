@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>aXe Hackathon - CSUN 2017</title>
+
+		<meta name="description" content="Slides for the aXe Hackathon at CSUN">
+		<meta name="author" content="Marcy Sutton">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+
+		<link rel="stylesheet" href="plugin/accessibility-helpers/accessibility-helper.css">
+		<link rel="stylesheet" href="css/theme/custom.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/tomorrow.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-color="#fff" class="deque-title-slide">
+					<div class="left">
+						<img src="img/deque-logo.png" alt="Deque" class="plain deque">
+					</div>
+					<div class="right">
+						<p class="subhead" style="margin-bottom: 0;">2nd Annual</p>
+						<h1>aXe Hackathon<br><span style="display: block; font-size: 80%; line-height: 1;">at CSUN 2017</span></h1>
+						<p>
+							Marcy Sutton, Wilco Fiers<br>
+							Deque Systems
+						</p>
+					</div>
+				</section>
+
+				<section>
+					<h2>Goals for Today</h2>
+					<ul>
+						<li>Identify a11y bugs with aXe</li>
+						<li>File bugs on projects</li>
+						<li>Meet your neighbor</li>
+						<li>Have fun!</li>
+					</ul>
+				</section>
+
+				<section style="padding-top: 0 !important;">
+					<h2>Projects: 1 of 1</h2>
+					<ul>
+						<li>
+							<h3>Office Fabric 365</h3>
+							<ul>
+								<li>Demo Site: <a href="https://dev.office.com/fabric#/components">https://dev.office.com/fabric#/components</a></li>
+								<li>Github: <a href="https://github.com/OfficeDev/office-ui-fabric-react">https://github.com/OfficeDev/office-ui-fabric-react</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>Wordpress</h3>
+							<ul>
+								<li>Themes directory: <a href="https://wordpress.org/themes">https://wordpress.org/themes</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>US Design Standards</h3>
+							<ul>
+								<li>Demo Site: <a href="https://standards.usa.gov/">https://standards.usa.gov/</a></li>
+								<li>Github: <a href="https://github.com/18F/web-design-standards">https://github.com/18F/web-design-standards</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>AMP HTML</h3>
+							<ul>
+								<li>Demo Site: <a href="https://github.com/google/amphtml">https://github.com/google/amphtml</a></li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Projects: 1 of 2</h2>
+					<ul>
+						<li>
+							<h3>Material Design Components</h3>
+							<ul>
+								<li>Demo Site: <a href="https://material.io/components/">https://material.io/components/</a></li>
+								<li>Github: <a href="https://github.com/material-components/material-components-web">https://github.com/material-components/material-components-web</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>Vaadin Elements</h3>
+							<ul>
+								<li>Demo Site: <a href="https://vaadin.com/elements">https://vaadin.com/elements</a></li>
+								<li>Github: <a href="https://github.com/vaadin/vaadin-core-elements">https://github.com/vaadin/vaadin-core-elements</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>Esri Calcite Web</h3>
+							<ul>
+								<li>Demo Site: <a href="http://esri.github.io/calcite-web/">http://esri.github.io/calcite-web</a></li>
+								<li>Github: <a href="https://github.com/Esri/calcite-web">https://github.com/Esri/calcite-web</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>Frend</h3>
+							<ul>
+								<li>Demo Site: <a href="https://frend.co/">https://frend.co/</a></li>
+								<li>Github: <a href="https://github.com/frend/frend.co">https://github.com/frend/frend.co</a></li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Available Testing Tools</h2>
+					<!-- TODO: create bit.ly links -->
+					<ul>
+						<li>aXe Chrome Extension - <a href="http://bit.ly/axe-chrome">http://bit.ly/axe-chrome</a></li>
+						<li>aXe Firefox Extension - <a href="https://bit.ly/axe-firefox-devtools">https://bit.ly/axe-firefox-devtools</a></li>
+						<li>axe-core library - <a href="http://bit.ly/axe-core">http://bit.ly/axe-core</a></li>
+						<li>axe-webdriverjs utility - <a href="http://bit.ly/axe-webdriverjs">http://bit.ly/axe-webdriverjs</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Strategies for today</h2>
+					<ol>
+						<li>Find a partner</li>
+						<li>Go solo</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Sample Issue Format</h2>
+					<p class="subhead">Keep track of how many issues you file!</p>
+					<pre><code>
+  ## A11y: Issue Title
+  *Short description*
+
+  ### Steps to reproduce:
+
+  ### Expected behavior:
+
+  ### Actual behavior:
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Wrap-Up</h2>
+
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+			    width: '100%',
+			    margin: 0,
+					controls: true,
+					progress: true,
+					history: true,
+					center: true,
+
+	        keyboard: {
+	          13: 'next', // go to the next slide when the ENTER key is pressed
+	          27: function() {}/*, // do something custom when ESC is pressed
+	          37: null,
+	          39: null // don't do anything when SPACE is pressed (i.e. disable a reveal.js default binding)*/
+	        },
+
+				transition: 'none', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/accessibility-helpers/accessibility-helpers.js', async: true}
+				]
+			});
+
+		</script>
+	</body>
+</html>
